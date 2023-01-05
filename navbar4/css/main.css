@@ -1,0 +1,48 @@
+body {
+  background-image: url(../ımages/bg_img.webp);
+}
+.navbar {
+  border-top: 6px solid palevioletred;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  font-size: 40px;
+  margin: 10px;
+}
+.blue {
+  color: rgb(43, 96, 189);
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.light-blue {
+  color: rgb(129, 241, 241);
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 30px;
+}
+ul li:hover {
+  background-color: rgb(91, 183, 183);
+  border-radius: 4px;
+}
+.search {
+  width: 30px;
+  height: 30px;
+}
+.ul-img {
+  display: flex;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
