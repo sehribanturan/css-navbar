@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(147, 189, 215);
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  font-size: 26px;
+  margin: 20px;
+}
+.ul-btn {
+  display: flex;
+  gap: 30px;
+}
+.ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+ul li:hover {
+  background-color: cadetblue;
+}
+.login {
+  background-color: rgb(25, 129, 129);
+  border-radius: 30px;
+  width: 120px;
+  height: 50px;
+  border: none;
+  color: white;
+  font-size: 26px;
+  margin-top: 15px;
+}
+.login:hover {
+  cursor: pointer;
+}
+.singup {
+  border-radius: 30px;
+  width: 150px;
+  border: 1px solid rgb(13, 119, 115);
+  background-color: black;
+  color: white;
+  height: 50px;
+  font-size: 26px;
+  margin-top: 15px;
+}
+.singup:hover {
+  cursor: pointer;
+}
+.txt-logo {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
